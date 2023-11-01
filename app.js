@@ -84,7 +84,7 @@ app.get("/berita", async (req, res) => {
     const params = {
       access_key: apiKey,
       countries: "id",
-      limit: 3,
+      // limit: 8,
     };
 
     const response = await getBerita.get(urlApiMediaStack, { params });
