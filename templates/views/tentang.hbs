@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="icon" href="/img/weather-icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <style>
+        body {
+            background: url('img/weather-hot.jpg');
+            font-family: 'Fira Code';
+        }
+
+        #app .box {
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            display: inline-block;
+        }
+
+        .portrait {
+            border-radius: 50%; /* Add this line to make the image rounded */
+        }
+
+        #app {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #app .form .keyword {
+            padding: 5px 10px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border: none;
+            width: 300px;
+        }
+
+        #app .form .btn-search {
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+            background-color: rgb(22, 194, 233);
+            color: #eee;
+            border-radius: 7px;
+            margin-left: 10px;
+            transition: .2s;
+        }
+
+        #app .form .btn-search:hover {
+            opacity: 0.8;
+        }
+
+        #app .form .btn-search:focus {
+            outline: rgb(22, 194, 233) solid 2px;
+            outline-offset: 2px;
+        }
+
+        #container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <section class="jumbotron text-center" id="welcome-section">
+            <img
+              src="img/levi.jpg"
+              alt="Farel Fahlevi"
+              width="400"
+              class="rounded-circle img-thumbnail"
+            />
+            <h1 class="display-4">Muhammad Farel Fahlevi</h1>
+            <p class="lead">Student | Gamers</p>
+            <a
+              href="https://www.instagram.com/rel_leviii/?hl=en"
+              target="_blank"
+              class="btn btn-dark btn-github"
+              id="profile-link"
+              >Follow my Instagram <i class="bi bi-github"></i
+            ></a>
+            <svg
+              class="wave1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1440 320"
+            >
+              <path
+                fill="#ffffff"
+                fill-opacity="10"
+                d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,80C672,64,768,64,864,96C960,128,1056,192,1152,186.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+              ></path>
+            </svg>
+          </section>
+          <!-- Akhir Jumbotron -->
+      
+          <!-- About -->
+          <section id="about">
+            <div class="container">
+              <div class="row text-center mb-3">
+                <div class="col">
+                  <h2>About Me</h2>
+                </div>
+              </div>
+              <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-4">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
+                    mollitia voluptatum corrupti sint delectus facilis pariatur
+                    recusandae! Eveniet, iure debitis?
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+                    quibusdam animi odit unde sequi voluptatibus quo rem perferendis
+                    eos, numquam in porro cumque a hic!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path
+                fill="#e2edff"
+                fill-opacity="10"
+                d="M0,96L48,122.7C96,149,192,203,288,192C384,181,480,107,576,80C672,53,768,75,864,101.3C960,128,1056,160,1152,165.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+              ></path>
+            </svg>
+          </section>
+          <!-- Akhir About -->
+    </div>
+    {{>footer}}
+</body>
+
+</html>
