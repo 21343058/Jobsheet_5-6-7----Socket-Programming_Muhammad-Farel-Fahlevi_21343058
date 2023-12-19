@@ -1,83 +1,46 @@
-Tentu, inilah contoh draft README.md yang bisa kamu gunakan untuk repository GitHub dengan tema yang kreatif dan informatif:
+<!-- Header -->
+# Proyek Pengembangan Aplikasi Cuaca, Git, dan Deployment
 
-```markdown
-# Weather Web Server with Node.js
+Selamat datang di proyek ini! Di sini, kami menjelajahi pembuatan web server cuaca dengan Node.js, manajemen versi dengan Git, dan proses deployment aplikasi menggunakan Cyclic. 
 
-A project focused on building a weather-based web server using Node.js.
+## Jobsheet 5: Pembuatan Web Server Cuaca dengan Node.JS
+### Langkah-langkah Singkat:
+1. **Persiapan Proyek:** Inisialisasi proyek Node.js dan package.json.
+2. **Instalasi Modul:** Gunakan Express untuk web framework dan modul lain yang dibutuhkan.
+3. **Buat Server:** File JavaScript untuk server menggunakan Express.
+4. **Routing:** Tentukan rute untuk permintaan cuaca (GET, POST, dll.).
+5. **Ambil Data Cuaca:** Gunakan API cuaca (misalnya, OpenWeatherMap) dengan node-fetch.
+6. **Tampilkan Data:** Tampilkan informasi cuaca ke pengguna melalui respons dari server.
+   
+### Penjelasan Singkat:
+Jobsheet ini fokus pada pembuatan web server yang mengambil data cuaca menggunakan Node.js. Langkah-langkahnya meliputi persiapan proyek, instalasi modul, pembuatan server, penanganan rute, pengambilan data cuaca melalui API, dan menampilkan informasi cuaca ke pengguna melalui respons dari server.
 
-## Table of Contents
 
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Git and GitHub Usage Guide](#git-and-github-usage-guide)
-- [Deployment with Cyclic](#deployment-with-cyclic)
-- [Contributing](#contributing)
-- [License](#license)
+## Jobsheet 6: Penggunaan Git dan GitHub
+### Langkah-langkah Singkat:
+1. **Instalasi Git:** Unduh dan instal Git sesuai sistem operasi.
+2. **Konfigurasi Awal:** Tambahkan nama dan email untuk konfigurasi awal Git.
+3. **Inisialisasi Repository:** Gunakan git init di direktori proyek.
+4. **Tambah dan Commit:** Tambahkan perubahan dan lakukan commit.
+5. **Remote Repository:** Hubungkan proyek dengan repositori di GitHub.
+6. **Push ke GitHub:** Kirim perubahan ke repositori.
 
-## Introduction
+### Penjelasan Singkat:
+Jobsheet ini memberikan gambaran tentang penggunaan Git untuk manajemen versi kode sumber. Ini meliputi instalasi Git, inisialisasi repository, menambahkan perubahan, menghubungkan dengan repositori di GitHub, dan mengirim perubahan ke repositori tersebut.
 
-This project encompasses a web server designed to fetch weather data via Node.js. It serves as a learning platform for integrating weather data APIs into web applications.
 
-## Getting Started
+## Jobsheet 7: Deployment Aplikasi dengan Cyclic
+### Langkah-langkah Singkat:
+1. **Registrasi ke Cyclic:** Daftar dan buat akun di Cyclic.
+2. **Hubungkan Akun GitHub:** Sambungkan akun GitHub dengan Cyclic.
+3. **Deploy Aplikasi:** Pilih repositori GitHub yang ingin di-deploy dan ikuti instruksi.
+4. **Uji Aplikasi:** Pastikan aplikasi berjalan dengan baik setelah di-deploy.
 
-### Prerequisites
+### Penjelasan Singkat:
+Jobsheet ini berkaitan dengan proses deployment aplikasi menggunakan platform Cyclic. Melalui langkah-langkahnya, kamu akan memahami cara mendaftar, menghubungkan repositori di GitHub, dan melakukan deployment aplikasi menggunakan layanan Cyclic.
 
-- Node.js installed
-- Understanding of JavaScript
 
-### Installation
+---
 
-1. Clone the repository.
-2. Install necessary modules using `npm install`.
+**Catatan Penting:** Jobsheet ini membentuk fondasi penting dalam pengembangan aplikasi web menggunakan Node.js, manajemen versi dengan Git, dan proses deployment aplikasi. Selamat berpetualang dengan kode!
 
-## Usage
-
-To start the server:
-
-```bash
-node server.js
-```
-
-Visit `http://localhost:PORT` in your browser.
-
-## Git and GitHub Usage Guide
-
-Learn the basics of version control and collaboration using Git and GitHub.
-
-### Setting up Git
-
-- Install Git on your machine.
-- Configure Git with your username and email.
-
-### Repository Initialization
-
-1. Use `git init` in your project directory to initialize a Git repository.
-2. Add files (`git add .`) and commit changes (`git commit -m "Your commit message"`).
-
-### Connecting with GitHub
-
-- Link your local repository with a GitHub repository using `git remote add origin URL_REPO`.
-- Push changes to GitHub: `git push -u origin master`.
-
-## Deployment with Cyclic
-
-Learn how to deploy your applications using the Cyclic platform.
-
-### Steps for Deployment
-
-1. Sign up and create an account on Cyclic.
-2. Connect your GitHub account to Cyclic.
-3. Deploy your application following the Cyclic instructions.
-4. Test your deployed application on Cyclic.
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Pastikan untuk mengubah `<PORT>` dan `<URL_REPO>` sesuai dengan konfigurasi proyek yang sebenarnya. Selain itu, tambahkan deskripsi lebih lanjut, contoh penggunaan, dan informasi yang lebih spesifik sesuai kebutuhan proyekmu.
